@@ -1,17 +1,526 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Revanth Goud Gajagauni - Data and Business Analyst Portfolio" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Revanth Goud Gajagauni - Data and Business Analyst Portfolio">
+    <meta name="keywords" content="Data Analyst, Business Analyst, Python, SQL, Power BI, AWS, Data Science">
+    <meta name="author" content="Revanth Goud Gajagauni">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <title>Revanth Goud Gajagauni | Data & Business Analyst</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#hero" class="logo">RG</a>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Revanth Goud Gajagauni</h1>
+                <h2 class="hero-subtitle">Data and Business Analyst</h2>
+                <p class="hero-description">
+                    A results-driven Data Analyst with over 4 years of experience in data migration,
+                    financial analytics, and business intelligence across insurance, nonprofit, and education sectors.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="https://linkedin.com/in/revanthgoudgajagauni" target="_blank" class="btn btn-outline">LinkedIn</a>
+                    <a href="https://github.com/revanthgoud" target="_blank" class="btn btn-outline">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm <strong>Revanth Goud Gajagauni</strong>, a Data and Business Analyst with a proven background in analytics, automation, and data-driven decision-making. With hands-on experience in <strong>Python, SQL, Power BI, AWS, and Snowflake</strong>, I specialize in turning complex datasets into clear insights that drive operational efficiency and growth.
+                    </p>
+                    <p>
+                        Having worked on cross-functional projects across insurance, finance, and technology domains, I bring a holistic approach to analytics—combining technical precision with business understanding. My current focus includes <strong>predictive modeling, ETL automation, data visualization, and cloud-based analytics architectures</strong>.
+                    </p>
+                    <p>
+                        I'm passionate about developing solutions that simplify decision-making, enhance performance metrics, and foster a culture of data literacy across organizations.
+                    </p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">4+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Industries</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">💻</span>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Python (pandas, NumPy)</span>
+                        <span class="tag">R</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">T-SQL</span>
+                        <span class="tag">DAX</span>
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">Bash</span>
+                        <span class="tag">XML</span>
+                        <span class="tag">VBA</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">🔧</span>
+                        <h3>Big Data & Data Engineering</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Apache Spark</span>
+                        <span class="tag">Hadoop</span>
+                        <span class="tag">MapReduce</span>
+                        <span class="tag">Databricks</span>
+                        <span class="tag">Hive</span>
+                        <span class="tag">HDFS</span>
+                        <span class="tag">dbt</span>
+                        <span class="tag">SSIS</span>
+                        <span class="tag">ETL/ELT</span>
+                        <span class="tag">Data Validation</span>
+                        <span class="tag">CI/CD</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">☁️</span>
+                        <h3>Cloud Platforms</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">AWS (S3, Glue, Lambda, Redshift)</span>
+                        <span class="tag">Azure (Data Factory, Synapse)</span>
+                        <span class="tag">GCP (BigQuery)</span>
+                        <span class="tag">Snowflake</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">📊</span>
+                        <h3>Business Intelligence & Visualization</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Power BI</span>
+                        <span class="tag">Tableau</span>
+                        <span class="tag">Looker Studio</span>
+                        <span class="tag">Domo</span>
+                        <span class="tag">Excel</span>
+                        <span class="tag">SAP</span>
+                        <span class="tag">SPSS</span>
+                        <span class="tag">SAS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">🤝</span>
+                        <h3>Project Management</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Agile</span>
+                        <span class="tag">Scrum</span>
+                        <span class="tag">Kanban</span>
+                        <span class="tag">Sprint Planning</span>
+                        <span class="tag">JIRA</span>
+                        <span class="tag">Confluence</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">GitHub</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">🎯</span>
+                        <h3>Core Competencies</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Data Modeling</span>
+                        <span class="tag">Forecasting</span>
+                        <span class="tag">KPI Design</span>
+                        <span class="tag">Financial Analysis</span>
+                        <span class="tag">Problem-Solving</span>
+                        <span class="tag">Critical Thinking</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certifications">
+                <h3 class="cert-title">Certifications</h3>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <span class="cert-icon">🏆</span>
+                        <p>Microsoft Power BI Data Analyst Associate</p>
+                    </div>
+                    <div class="cert-card">
+                        <span class="cert-icon">🏆</span>
+                        <p>Atlassian Jira Fundamentals Badge</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-accent accent-blue"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">E-Commerce Customer Behavior Analysis & Churn Prediction</h3>
+                            <span class="project-period">January 2025 – May 2025</span>
+                        </div>
+                        <p class="project-description">
+                            Analyzed customer behavior patterns and built predictive models to identify churn risks.
+                        </p>
+                        <ul class="project-achievements">
+                            <li>Cleaned and merged transactional and customer data from multiple sources using SQL</li>
+                            <li>Performed EDA in Python (pandas, seaborn, matplotlib) to uncover churn behavior trends</li>
+                            <li>Built and optimized Logistic Regression and XGBoost models improving recall by 20%</li>
+                            <li>Designed an interactive Power BI dashboard with dynamic churn KPIs</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">pandas</span>
+                            <span class="tech-tag">seaborn</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-accent accent-green"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Loan Default Prediction</h3>
+                            <span class="project-period">January 2024 – May 2024</span>
+                        </div>
+                        <p class="project-description">
+                            Developed machine learning models to predict loan defaults with high accuracy.
+                        </p>
+                        <ul class="project-achievements">
+                            <li>Prepared and transformed large lending datasets with missing value handling and encoding</li>
+                            <li>Conducted EDA and feature engineering to identify high-impact variables</li>
+                            <li>Developed Logistic Regression and Random Forest models achieving 85% accuracy</li>
+                            <li>Visualized model results and conducted cost-benefit analysis</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">scikit-learn</span>
+                            <span class="tech-tag">Random Forest</span>
+                            <span class="tech-tag">matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-accent accent-red"></div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Global COVID-19 Impact Dashboard</h3>
+                            <span class="project-period">May 2024 – December 2024</span>
+                        </div>
+                        <p class="project-description">
+                            Built a comprehensive dashboard tracking global and regional COVID-19 trends.
+                        </p>
+                        <ul class="project-achievements">
+                            <li>Designed a fully interactive Power BI dashboard with real-time data</li>
+                            <li>Created DAX measures for rolling averages, fatality rates, and custom KPIs</li>
+                            <li>Implemented time-series filtering for historical trend analysis</li>
+                            <li>Published to Power BI Service for real-time refresh and public sharing</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">DAX</span>
+                            <span class="tech-tag">Power Query</span>
+                            <span class="tech-tag">Power BI Service</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="job-title">Data Analyst</h3>
+                        <h4 class="company">Community Dreams Foundation</h4>
+                        <div class="job-meta">
+                            <span>📅 July 2025 – Present</span>
+                            <span>📍 Remote</span>
+                        </div>
+                        <ul class="job-achievements">
+                            <li>Developed scalable financial analytics systems and Power BI dashboards, improving reporting efficiency by 30%</li>
+                            <li>Automated data reconciliation workflows using Python and SQL, reducing manual effort by 40%</li>
+                            <li>Partnered with finance teams to define KPIs, increasing forecast precision by 20%</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="job-title">Data Analyst</h3>
+                        <h4 class="company">Ananda (Finance and Technology)</h4>
+                        <div class="job-meta">
+                            <span>📅 August 2024 – December 2024</span>
+                            <span>📍 Remote</span>
+                        </div>
+                        <ul class="job-achievements">
+                            <li>Integrated RAG with LLMs (Llama, Gemma, Mistral) improving chatbot accuracy by 25%</li>
+                            <li>Designed ML pipelines using Python for sentiment and volatility analysis</li>
+                            <li>Managed Agile sprints in JIRA and Confluence as technical-business liaison</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="job-title">Data Analyst</h3>
+                        <h4 class="company">Accenture Solutions Pvt. Ltd.</h4>
+                        <div class="job-meta">
+                            <span>📅 September 2022 – August 2023</span>
+                            <span>📍 Insurance Sector</span>
+                        </div>
+                        <ul class="job-achievements">
+                            <li>Conducted A/B testing improving insurance claim process efficiency by 10%</li>
+                            <li>Developed data models in AWS Redshift improving data integrity by 40%</li>
+                            <li>Built enterprise dashboards in Power BI reducing reporting time by 5%</li>
+                            <li>Automated ETL pipelines using AWS Glue and Informatica</li>
+                            <li>Led stakeholder workshops saving $150K in project costs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="job-title">Application Development Associate</h3>
+                        <h4 class="company">Accenture Solutions Pvt. Ltd.</h4>
+                        <div class="job-meta">
+                            <span>📅 February 2021 – September 2022</span>
+                            <span>📍 Insurance Sector</span>
+                        </div>
+                        <ul class="job-achievements">
+                            <li>Integrated claims data using advanced SQL joins, CTEs, and stored procedures</li>
+                            <li>Built compliance dashboards in Tableau and Looker Studio</li>
+                            <li>Created automated data quality checks in Domo reducing audit time by 35%</li>
+                            <li>Executed data migration from SQL Server to Snowflake</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="education-card">
+                <div class="education-content">
+                    <h3 class="degree-title">Master of Science in Business Analytics and Project Management</h3>
+                    <p class="degree-subtitle">(MSBAPM)</p>
+                    <p class="university">University of Connecticut, School of Business</p>
+                    <p class="location">Hartford, CT</p>
+
+                    <div class="education-details">
+                        <div class="detail-item">
+                            <span class="detail-icon">🎓</span>
+                            <div>
+                                <p class="detail-label">Graduation</p>
+                                <p class="detail-value">May 2025</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">⭐</span>
+                            <div>
+                                <p class="detail-label">GPA</p>
+                                <p class="detail-value">3.82 / 4.0</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="focus-areas">
+                        <h4>Key Focus Areas:</h4>
+                        <div class="focus-tags">
+                            <span class="focus-tag">Business Analytics</span>
+                            <span class="focus-tag">Project Management</span>
+                            <span class="focus-tag">Data Science</span>
+                            <span class="focus-tag">Machine Learning</span>
+                            <span class="focus-tag">Statistical Analysis</span>
+                            <span class="focus-tag">Business Strategy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p class="contact-intro">
+                    I'm always open to discussing new opportunities, collaborations, or just connecting
+                    with fellow data enthusiasts. Feel free to reach out!
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <span class="contact-icon">✉️</span>
+                    <h3>Email</h3>
+                    <a href="mailto:revanthgoudgajagauni@gmail.com">revanthgoudgajagauni@gmail.com</a>
+                </div>
+
+                <div class="contact-card">
+                    <span class="contact-icon">📱</span>
+                    <h3>Phone</h3>
+                    <a href="tel:+19596661894">959-666-1894</a>
+                </div>
+
+                <div class="contact-card">
+                    <span class="contact-icon">📍</span>
+                    <h3>Location</h3>
+                    <p>United States (Open to Relocate)</p>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <h3>Connect With Me</h3>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/revanthgoudgajagauni" target="_blank" class="social-icon" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/revanthgoud" target="_blank" class="social-icon" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cta-button">
+                <a href="mailto:revanthgoudgajagauni@gmail.com" class="btn btn-cta">Send Me an Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Revanth Goud Gajagauni. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="mailto:revanthgoudgajagauni@gmail.com">Email</a>
+                    <a href="https://linkedin.com/in/revanthgoudgajagauni" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/revanthgoud" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
 </html>
