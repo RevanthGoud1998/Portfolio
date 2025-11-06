@@ -24,6 +24,9 @@ A modern, professional portfolio website showcasing my experience as a Data and 
 
 ```
 revanth-portfolio/
+├── assets/
+│   └── images/
+│       └── profile.png     # Your profile photo (add this file)
 ├── css/
 │   └── style.css           # All styles with CSS variables
 ├── js/
@@ -34,6 +37,18 @@ revanth-portfolio/
 ```
 
 ## Getting Started
+
+### Adding Your Profile Photo
+
+1. Save your profile photo as `profile.png`
+2. Place it in the `assets/images/` directory
+3. Recommended specifications:
+   - Format: PNG, JPG, or WebP
+   - Size: 400x400px or larger (square format)
+   - File size: Under 500KB for optimal loading
+   - The image will be displayed as a circle with a gold border
+
+**Note:** If you don't have a profile photo yet, you can remove the profile photo section from the HTML or use a placeholder image.
 
 ### Option 1: Open Directly
 Simply open `index.html` in your web browser. No installation or build process required!

@@ -165,6 +165,31 @@ body {
     animation: fadeInUp 1s ease-out;
 }
 
+/* Profile Photo */
+.profile-photo-container {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    animation: fadeInScale 1s ease-out;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid var(--gold-500);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3),
+                0 0 0 12px rgba(245, 158, 11, 0.2);
+    transition: var(--transition);
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4),
+                0 0 0 12px rgba(245, 158, 11, 0.3);
+}
+
 .hero-title {
     font-size: clamp(2.5rem, 7vw, 4.5rem);
     font-weight: 800;
@@ -893,6 +918,17 @@ body {
     }
 }
 
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
     :root {
@@ -933,6 +969,12 @@ body {
 
     .mobile-menu-btn.active span:nth-child(3) {
         transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+    .profile-photo {
+        width: 160px;
+        height: 160px;
+        border-width: 5px;
     }
 
     .hero-buttons {
@@ -984,6 +1026,12 @@ body {
 }
 
 @media (max-width: 480px) {
+    .profile-photo {
+        width: 140px;
+        height: 140px;
+        border-width: 4px;
+    }
+
     .stats-grid {
         grid-template-columns: 1fr;
     }
